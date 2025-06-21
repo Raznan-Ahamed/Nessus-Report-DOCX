@@ -2,6 +2,10 @@
 
 This Python script automates the creation of structured, client-ready vulnerability assessment reports from Nessus CSV exports. It formats the data into a well-organized DOCX file with color-coded risk sections, charts, and tables — saving you hours of manual work.
 
+# Usage
+
+python app.py "input.csv"
+
 ## 🚀 Features
 
 - 📌 Groups vulnerabilities by host and severity
@@ -38,10 +42,10 @@ To use this script, you’ll need to provide a custom DOCX file as `REPORT_TEMPL
 
 ```plaintext
 .
-├── main.py
+├── app.py
 ├── REPORT_TEMPLATE.docx
 ├── input.csv
-├── output_report.docx
+├── nessus_vuln_report.docx
 ```
 ## 📧 Contact
 For suggestions or questions, feel free to reach out via LinkedIn or open an issue.
