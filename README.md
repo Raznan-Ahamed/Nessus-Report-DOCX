@@ -42,6 +42,6 @@ To use this script, you’ll need to provide a custom DOCX file as `REPORT_TEMPL
 ├── REPORT_TEMPLATE.docx
 ├── input.csv
 ├── output_report.docx
-
+```
 ## 📧 Contact
 For suggestions or questions, feel free to reach out via LinkedIn or open an issue.
